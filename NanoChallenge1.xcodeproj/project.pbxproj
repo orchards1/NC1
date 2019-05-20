@@ -15,6 +15,10 @@
 		B12C733322902CB4003DABF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12C733122902CB4003DABF6 /* Main.storyboard */; };
 		B12C733522902CB5003DABF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12C733422902CB5003DABF6 /* Assets.xcassets */; };
 		B12C733822902CB5003DABF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12C733622902CB5003DABF6 /* LaunchScreen.storyboard */; };
+		B12C734022902EDE003DABF6 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C733F22902EDE003DABF6 /* MyParticle.sks */; };
+		B12C7342229052DE003DABF6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C7341229052DE003DABF6 /* Constant.swift */; };
+		B12C7344229053A7003DABF6 /* NewParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C7343229053A7003DABF6 /* NewParticle.sks */; };
+		B19632B622925B57005CE285 /* RainBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B19632B522925B57005CE285 /* RainBGM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		B12C733422902CB5003DABF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12C733722902CB5003DABF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12C733922902CB5003DABF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12C733F22902EDE003DABF6 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		B12C7341229052DE003DABF6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B12C7343229053A7003DABF6 /* NewParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = NewParticle.sks; sourceTree = "<group>"; };
+		B19632B522925B57005CE285 /* RainBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = RainBGM.mp3; path = ../../../../Downloads/RainBGM.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,10 @@
 		B12C732622902CB4003DABF6 /* NanoChallenge1 */ = {
 			isa = PBXGroup;
 			children = (
+				B19632B522925B57005CE285 /* RainBGM.mp3 */,
 				B12C732722902CB4003DABF6 /* AppDelegate.swift */,
 				B12C732922902CB4003DABF6 /* GameScene.sks */,
+				B12C733F22902EDE003DABF6 /* MyParticle.sks */,
 				B12C732B22902CB4003DABF6 /* Actions.sks */,
 				B12C732D22902CB4003DABF6 /* GameScene.swift */,
 				B12C732F22902CB4003DABF6 /* GameViewController.swift */,
@@ -69,6 +79,8 @@
 				B12C733422902CB5003DABF6 /* Assets.xcassets */,
 				B12C733622902CB5003DABF6 /* LaunchScreen.storyboard */,
 				B12C733922902CB5003DABF6 /* Info.plist */,
+				B12C7341229052DE003DABF6 /* Constant.swift */,
+				B12C7343229053A7003DABF6 /* NewParticle.sks */,
 			);
 			path = NanoChallenge1;
 			sourceTree = "<group>";
@@ -132,7 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12C733322902CB4003DABF6 /* Main.storyboard in Resources */,
+				B19632B622925B57005CE285 /* RainBGM.mp3 in Resources */,
+				B12C734022902EDE003DABF6 /* MyParticle.sks in Resources */,
 				B12C732A22902CB4003DABF6 /* GameScene.sks in Resources */,
+				B12C7344229053A7003DABF6 /* NewParticle.sks in Resources */,
 				B12C733522902CB5003DABF6 /* Assets.xcassets in Resources */,
 				B12C733822902CB5003DABF6 /* LaunchScreen.storyboard in Resources */,
 				B12C732C22902CB4003DABF6 /* Actions.sks in Resources */,
@@ -149,6 +164,7 @@
 				B12C732E22902CB4003DABF6 /* GameScene.swift in Sources */,
 				B12C733022902CB4003DABF6 /* GameViewController.swift in Sources */,
 				B12C732822902CB4003DABF6 /* AppDelegate.swift in Sources */,
+				B12C7342229052DE003DABF6 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

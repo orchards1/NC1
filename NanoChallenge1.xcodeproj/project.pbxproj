@@ -18,6 +18,9 @@
 		B12C734022902EDE003DABF6 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C733F22902EDE003DABF6 /* MyParticle.sks */; };
 		B12C7342229052DE003DABF6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C7341229052DE003DABF6 /* Constant.swift */; };
 		B12C7344229053A7003DABF6 /* NewParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C7343229053A7003DABF6 /* NewParticle.sks */; };
+		B182CEA82292B14D0070FEF0 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = B182CEA72292B14D0070FEF0 /* Rain.sks */; };
+		B182CEAA2292B5DF0070FEF0 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = B182CEA92292B5DF0070FEF0 /* Smoke.sks */; };
+		B182CEAC2292CAE40070FEF0 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = B182CEAB2292CAE40070FEF0 /* Fire.sks */; };
 		B19632B622925B57005CE285 /* RainBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B19632B522925B57005CE285 /* RainBGM.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		B12C733F22902EDE003DABF6 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 		B12C7341229052DE003DABF6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		B12C7343229053A7003DABF6 /* NewParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = NewParticle.sks; sourceTree = "<group>"; };
+		B182CEA72292B14D0070FEF0 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		B182CEA92292B5DF0070FEF0 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		B182CEAB2292CAE40070FEF0 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		B19632B522925B57005CE285 /* RainBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = RainBGM.mp3; path = ../../../../Downloads/RainBGM.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +87,9 @@
 				B12C733922902CB5003DABF6 /* Info.plist */,
 				B12C7341229052DE003DABF6 /* Constant.swift */,
 				B12C7343229053A7003DABF6 /* NewParticle.sks */,
+				B182CEA72292B14D0070FEF0 /* Rain.sks */,
+				B182CEA92292B5DF0070FEF0 /* Smoke.sks */,
+				B182CEAB2292CAE40070FEF0 /* Fire.sks */,
 			);
 			path = NanoChallenge1;
 			sourceTree = "<group>";
@@ -143,8 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B182CEAC2292CAE40070FEF0 /* Fire.sks in Resources */,
+				B182CEA82292B14D0070FEF0 /* Rain.sks in Resources */,
 				B12C733322902CB4003DABF6 /* Main.storyboard in Resources */,
 				B19632B622925B57005CE285 /* RainBGM.mp3 in Resources */,
+				B182CEAA2292B5DF0070FEF0 /* Smoke.sks in Resources */,
 				B12C734022902EDE003DABF6 /* MyParticle.sks in Resources */,
 				B12C732A22902CB4003DABF6 /* GameScene.sks in Resources */,
 				B12C7344229053A7003DABF6 /* NewParticle.sks in Resources */,

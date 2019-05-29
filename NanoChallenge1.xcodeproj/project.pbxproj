@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1000A44229D5AB40078AFB8 /* RainBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1000A43229D5AB40078AFB8 /* RainBGM.mp3 */; };
 		B12C732822902CB4003DABF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C732722902CB4003DABF6 /* AppDelegate.swift */; };
 		B12C732A22902CB4003DABF6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C732922902CB4003DABF6 /* GameScene.sks */; };
 		B12C732C22902CB4003DABF6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C732B22902CB4003DABF6 /* Actions.sks */; };
@@ -16,13 +17,14 @@
 		B12C733822902CB5003DABF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12C733622902CB5003DABF6 /* LaunchScreen.storyboard */; };
 		B12C734022902EDE003DABF6 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12C733F22902EDE003DABF6 /* MyParticle.sks */; };
 		B12C7342229052DE003DABF6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C7341229052DE003DABF6 /* Constant.swift */; };
-		B19632B622925B57005CE285 /* RainBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B19632B522925B57005CE285 /* RainBGM.mp3 */; };
 		B1C6F9E62299DCEE00B3DEA1 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = B1C6F9E52299DCEE00B3DEA1 /* Fire.sks */; };
 		B1C6F9E92299DD4900B3DEA1 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = B1C6F9E72299DD4900B3DEA1 /* Rain.sks */; };
 		B1C6F9EC2299DDED00B3DEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C6F9EB2299DDED00B3DEA1 /* Assets.xcassets */; };
+		B1E288FE229BC3320012CAB0 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1E288FD229BC3320012CAB0 /* fire.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1000A43229D5AB40078AFB8 /* RainBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RainBGM.mp3; sourceTree = "<group>"; };
 		B12C732422902CB4003DABF6 /* NanoChallenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallenge1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12C732722902CB4003DABF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B12C732922902CB4003DABF6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -34,10 +36,10 @@
 		B12C733922902CB5003DABF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12C733F22902EDE003DABF6 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 		B12C7341229052DE003DABF6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		B19632B522925B57005CE285 /* RainBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = RainBGM.mp3; path = ../../../../Downloads/RainBGM.mp3; sourceTree = "<group>"; };
 		B1C6F9E52299DCEE00B3DEA1 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		B1C6F9E72299DD4900B3DEA1 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
 		B1C6F9EB2299DDED00B3DEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E288FD229BC3320012CAB0 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +72,9 @@
 		B12C732622902CB4003DABF6 /* NanoChallenge1 */ = {
 			isa = PBXGroup;
 			children = (
+				B1000A43229D5AB40078AFB8 /* RainBGM.mp3 */,
 				B1C6F9EB2299DDED00B3DEA1 /* Assets.xcassets */,
-				B19632B522925B57005CE285 /* RainBGM.mp3 */,
+				B1E288FD229BC3320012CAB0 /* fire.mp3 */,
 				B12C732722902CB4003DABF6 /* AppDelegate.swift */,
 				B12C732922902CB4003DABF6 /* GameScene.sks */,
 				B12C733F22902EDE003DABF6 /* MyParticle.sks */,
@@ -148,10 +151,11 @@
 			files = (
 				B1C6F9E92299DD4900B3DEA1 /* Rain.sks in Resources */,
 				B12C733322902CB4003DABF6 /* Main.storyboard in Resources */,
-				B19632B622925B57005CE285 /* RainBGM.mp3 in Resources */,
 				B12C734022902EDE003DABF6 /* MyParticle.sks in Resources */,
+				B1000A44229D5AB40078AFB8 /* RainBGM.mp3 in Resources */,
 				B12C732A22902CB4003DABF6 /* GameScene.sks in Resources */,
 				B1C6F9E62299DCEE00B3DEA1 /* Fire.sks in Resources */,
+				B1E288FE229BC3320012CAB0 /* fire.mp3 in Resources */,
 				B12C733822902CB5003DABF6 /* LaunchScreen.storyboard in Resources */,
 				B1C6F9EC2299DDED00B3DEA1 /* Assets.xcassets in Resources */,
 				B12C732C22902CB4003DABF6 /* Actions.sks in Resources */,
